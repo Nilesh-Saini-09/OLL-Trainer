@@ -12,7 +12,7 @@ var displayTime = document.querySelector("#displayTime");
 var generateScram = document.querySelector("#newScram");
 var algName = document.querySelector('#algName');
 var scramDisplay = document.querySelector("#scramDisplay");
-var generateScram = document.querySelector('#generateScramble');
+
 
 
 var running = false;
@@ -134,4 +134,4 @@ window.addEventListener('keyup', (e) => {
 
 generateOll();
 
-generateScram.addEventListener('click', generateOll);
+generateScramble.addEventListener('click', generateOll);

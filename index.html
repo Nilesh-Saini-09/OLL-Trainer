@@ -44,8 +44,11 @@
             <thead>
                 <tr>
                     <th colspan="2">
-                        <div class="scramble">
-                            <h2><span id='algName'></span> <i class="fas fa-sync-alt fa-xs" id="generateScramble" title="Change Scramble"></i> </h2>
+                        <div class="scramble" id="first">
+                            <h2 id='scramHeading'> <span id='scramDisplay'></span>
+                                <i class="fas fa-sync-alt fa-xs" id="generateScramble" title="Change Scramble"></i>
+                            </h2>
+                            <!-- <h2><span id='algName'></span> <i class="fas fa-sync-alt fa-xs" id="generateScramble" title="Change Scramble"></i> </h2> -->
                             <select name="oType" id="oType" onchange='selectAlg()'>
                                 <option value="1">soe</option>
                                 <option value="2">toe</option>
@@ -55,11 +58,13 @@
                         
                     </th>
                 </tr>
-              <tr>
+              <!-- <tr>
                     <th colspan="2"><div class="scramble">
                         <h2 id='scramHeading'> <span id='scramDisplay'></span></h2>
                     </div></th>
-                </tr>
+                </tr> -->
+
+                
             </thead>
             <tbody>
               <tr>

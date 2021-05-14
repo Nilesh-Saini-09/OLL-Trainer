@@ -3,7 +3,7 @@
 }
 
 table {
-  border: 2px solid #333;
+  border: 5px solid #333;
   width: 100%;
 }
 
@@ -14,8 +14,13 @@ table {
 td {
   width: 25em;
   height: 25em;
-  border: 2px solid #333;
+  border: 5px solid rgb(240, 20, 20);
+  border-top: #333;
   text-align: center;
+}
+
+th {
+  height: 5em;
 }
 
 /* td div {
@@ -39,9 +44,9 @@ th #first {
   background-color: red;
 } */
 
-th > #second {
+/* th > #second {
   text-align: center;
-}
+} */
 
 select {
   width: 25%;
