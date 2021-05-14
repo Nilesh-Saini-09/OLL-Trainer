@@ -43,7 +43,7 @@ function generateOll() {
     orientation = `${dig}EdgeOriented`;
     var final = orientations[orientation][alg];
     //console.log(orientation, final);
-    scr.innerHTML = final;
+    scramDisplay.innerHTML = final;
     
     
     
