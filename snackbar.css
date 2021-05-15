@@ -12,7 +12,7 @@
   position: absolute; /* Sit on top of the screen */
   z-index: 1;
   left: 65%; /* Center the snackbar */
-  bottom: 30px; /* 30px from the bottom */
+  bottom: 100px; /* 30px from the bottom */
 }
 
 #snackbar.show {
@@ -30,7 +30,7 @@
     opacity: 0;
   }
   to {
-    bottom: 30px;
+    bottom: 100px;
     opacity: 1;
   }
 }
@@ -41,14 +41,14 @@
     opacity: 0;
   }
   to {
-    bottom: 30px;
+    bottom: 100px;
     opacity: 1;
   }
 }
 
 @-webkit-keyframes fadeout {
   from {
-    bottom: 30px;
+    bottom: 50px;
     opacity: 1;
   }
   to {
@@ -59,7 +59,7 @@
 
 @keyframes fadeout {
   from {
-    bottom: 30px;
+    bottom: 50px;
     opacity: 1;
   }
   to {
