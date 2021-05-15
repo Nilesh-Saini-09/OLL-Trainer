@@ -322,24 +322,29 @@ function generateOll() {
     
    algNum = Math.floor(Math.random() * 3) + 1;
     
-    switch(algNum){
-          case 1:
-              alg = 0
-              break;
+    // switch(algNum){
+    //       case 1:
+    //           alg = 0
+    //           break;
   
-          case 2:
-              alg = 1
-              break;
+    //       case 2:
+    //           alg = 1
+    //           break;
   
-          case 3:
-              alg = 2
-              break;
-      }
+    //       case 3:
+    //           alg = 2
+    //           break;
+    //   }
+    var len = orientations[`${dig}EdgeOriented`].length - 1;
+    alg = Math.floor(Math.random() * len) + 1;
+    //console.log(`${dig}EdgeOriented`, len);
+
     
-    orientation = `${dig}EdgeOriented`;
-    var final = orientations[orientation][alg];
-    //console.log(orientation, final);
-    scramDisplay.innerHTML = final;
+     orientation = `${dig}EdgeOriented`;
+     var final = orientations[orientation][alg];
+     
+    // //console.log(orientation, final);
+     scramDisplay.innerHTML = final;
     
     
     
