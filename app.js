@@ -2,7 +2,7 @@ const generateScramble = document.querySelector('#generateScramble');
 var scramDisplay = document.querySelector("#scramDisplay");
 
 var inputSelected = document.querySelector('#oType');
-var dig = 'one';
+var dig = 'zero';
 
 var msDisplay = document.querySelector("#milliSec");
 var secDisplay = document.querySelector("#second");
@@ -110,17 +110,20 @@ function snackbar() {
 function selectAlg() {
     switch(parseInt(inputSelected.value)){
       case 1:
-        dig = 'one'
+        dig = 'zero'
+        generateOll();
         break;
       case 2:
         dig = 'two'
+        generateOll();
         break;
       case 3:
         dig = 'four'
+        generateOll();
         break;
     }
   }
-  
+
 
 // timer will work when the spacebar key goes up
 // window.onkeyup = run;
